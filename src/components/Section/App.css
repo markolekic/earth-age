@@ -1,0 +1,26 @@
+:root {
+  /* Colors */
+  --white: #fff;
+  --black: #000;
+  --dark-grey: #575656;
+  --light-grey: #d3d3d3;
+  --opal: #a3ccc3;
+  --indigo: #23394b;
+  --cultured: #f5f5fa;
+  --onyx: #34323d;
+  --font-primary: "Helvetica", sans-serif;
+  --font-secondary: "Lora", serif;
+  --font-tertiary: "Roboto", sans-serif;
+  /*Container*/
+  --max-width-container: 1100px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--cultured);
+}
